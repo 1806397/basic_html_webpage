@@ -1,6 +1,6 @@
 body {
     margin-top: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6e4d9;
@@ -100,4 +100,86 @@ input:invalid {
 
 input:focus:invalid {
     border-color: black;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#promos {
+    font-size: 22px;
+
+}
+
+li {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Cookie', Verdana, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h4 {
+    text-align: center;
+}
+
+.promotion {
+    background-color: #23cea6;
+    color: white;
+    width: 450px;
+    text-align: center;
+    border: 10px solid #e693c2;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.promotion img {
+    width: 50%;
+}
+
+.promotion-purple {
+    background-color: #e693c2;
+    border-color: #23cea6;
+}
+
+footer {
+    margin: 60px;
+}
+
+#sidebar-heading {
+    font-size: 24px;
+}
+
+#leftmenu a {
+    color: #199175;
+}
+
+#leftmenu a:hover {
+    color: #116552;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #b4ddd3;
+}
+
+tr:nth-of-type(even) {
+    background-color: #e0d7ef;
+}
+
+#table-heading {
+    background-color: #88a49e;
 }
