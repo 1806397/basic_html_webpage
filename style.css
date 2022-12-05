@@ -70,3 +70,34 @@ article,
 figure {
     display: block;
 }
+
+fieldset {
+    border-color: #a593c2;
+    border-width: 3px;
+    border-style: solid;
+}
+
+fieldset>legend {
+    color: #a593c2;
+}
+
+p>label {
+    display: block;
+}
+
+input,
+textarea {
+    border-radius: 7px;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus:invalid {
+    border-color: black;
+}
